@@ -1,0 +1,96 @@
+body {
+    font-family: 'Inconsolata', monospace;
+    background-color: hsl(0,0%,97%);
+    font-size: 14px;
+    line-height: 1.50;
+    color: #171717;
+    padding: 0;
+    margin: 0;
+    padding-left: 8%;
+}
+a {
+    color: #171717;
+    text-decoration: none;
+}
+.hlink{
+    text-decoration: underline;
+}
+.hlink:hover {
+    color: rgb(126, 222, 206);
+}
+button {
+    font-family: 'Inconsolata', monospace;
+    color: #171717;
+    background-color: rgb(242, 242, 242);
+    border: none;
+    cursor: pointer;
+    padding: 1em;
+}
+
+.header {
+    margin: 1.5em 0;
+}
+ul {
+    list-style-type: disc;
+    padding: 0;
+}
+li {
+    display: inline;
+    padding-right: 40px;
+}
+.name {
+    font-size: 2em;
+    font-weight: 1000;
+}
+
+.main {
+    margin-top: 4em;
+}
+.container {
+    min-width: 250px;
+    height: 500px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+canvas {
+    border-radius: 50%;
+}
+.individual-project{
+    max-width: 255px;
+    margin-bottom: 2.5em;
+}
+img {
+    width: 90%;
+}
+.btn-container {
+    margin: 1em auto;
+    padding-left: 2.5em;
+}
+
+footer {
+    text-align: center;
+    width: 80%;
+    margin-top: 4em;
+    color: #9f9f9f;
+}
+
+
+.content{
+    margin-right: 5em;
+}
+
+
+footer {
+    position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+.img-mid {
+    width: 50%;
+    margin-top: 2.5em;
+    box-shadow: 10px 5px 5px rgb(175, 175, 175);
+}
